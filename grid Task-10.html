@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>  display Gret </title>
+        <meta charset="UTF-8">
+        <meta name="viewport"content="width=device-width,initial-scale=1.0">
+<style>
+    .container{
+    
+    
+     height:80vh;
+     border:4px solid violet;
+     display:grid;
+      grid-template-columns:1fr 4fr;
+      grid-template-rows:80px 60px 1fr 80px;
+      grid-template-areas:
+  
+      "header  header"
+      "navigation navigation"
+      "sidebar  content"
+      "footer  footer";
+          
+      
+}
+   .header{ 
+         Grid-area:header;
+       font-size:30px;
+        background-color:plum;
+      
+ } 
+  .navigation{ 
+        Grid-area:navigation;
+        
+        background-color:tan;
+ }     
+ .sidebar{ 
+        Grid-area:sidebar;
+       
+        background-color:darkcyan;
+        
+}  
+
+     
+ .content{ 
+            Grid-area:content;
+       
+        background-color:pink;
+        
+
+}  
+.footer{ 
+         Grid-area:footer;
+       
+        background-color:royalblue;
+        
+
+}  
+
+@media(max-width:768px){
+      .container{
+	grid-template-columns:1fr;
+                grid-template-rows:100px 100px 1fr 2fr 100px;
+                grid-template-areas:
+                
+                 "header"
+                 "navigation"
+                 "sidebar"
+                 "content"
+                 "footer";
+          
+}
+}
+</style>
+</head>
+<body>
+       <header> 
+         <h2> display Grid </h2>
+       </header>
+       <main> 
+         
+           <div class="container">
+              
+           <div class="header"> 1 M💖hmmad Irshad Sk 💓Ujjain</div>
+           <div class="sidebar">box2🧡🧡🧡</div>
+           <div class="content">box3💚💚💚</div>
+           <div class="footer">box4💜💜💜</div>
+            <div class="navigation"> 
+            <a href="Grid Task-01.html">Task 01💜💜💜</a>
+            <a href="Grid Task-02.html">Task 02💜💜💜</a>
+           <a href="Grid Task-03.html">Task 03💜💜💜</a>
+           <a href="Grid Task-04.html">Task 04💜💜💜</a>
+           <a href="Grid Task-05.html">Task 05💜💜💜</a>
+           <a href="Grid Task-06.html">Task 06💜💜💜</a>
+           <a href="Grid Task-07.html">Task 07💜💜💜</a>
+           <a href="Grid Task-08.html">Task 08💜💜💜</a>
+           <a href="Grid Task-09.html">Task 09💜💜💜</a>
+         </div>
+          </div>
+            
+         
+            <section> 
+     
+            </section>
+       </main>
+       <footer>
+              
+       <footer>
+    
+</body>
+</html>
